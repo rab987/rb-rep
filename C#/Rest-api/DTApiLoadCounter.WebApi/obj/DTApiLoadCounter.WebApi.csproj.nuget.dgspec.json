@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.WebApi\\DTApiLoadCounter.WebApi.csproj": {}
+    "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.WebApi\\DTApiLoadCounter.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj": {
+    "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj",
         "projectName": "DTApiLoadCounter.Data",
-        "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj",
+        "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj",
         "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\obj\\",
+        "outputPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj": {
-                "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj"
+              "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj": {
+                "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj": {
+    "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj",
         "projectName": "DTApiLoadCounter.Domain",
-        "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj",
+        "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj",
         "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -118,8 +118,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj": {
-                "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj"
+              "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj": {
+                "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj": {
+    "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj",
         "projectName": "DTApiLoadCounter.DTO",
-        "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj",
+        "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj",
         "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -222,14 +222,14 @@
         }
       }
     },
-    "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.WebApi\\DTApiLoadCounter.WebApi.csproj": {
+    "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.WebApi\\DTApiLoadCounter.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.WebApi\\DTApiLoadCounter.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.WebApi\\DTApiLoadCounter.WebApi.csproj",
         "projectName": "DTApiLoadCounter.WebApi",
-        "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.WebApi\\DTApiLoadCounter.WebApi.csproj",
+        "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.WebApi\\DTApiLoadCounter.WebApi.csproj",
         "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-        "outputPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -250,11 +250,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj": {
-                "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj"
+              "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj": {
+                "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj"
               },
-              "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj": {
-                "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj"
+              "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj": {
+                "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj"
               }
             }
           }

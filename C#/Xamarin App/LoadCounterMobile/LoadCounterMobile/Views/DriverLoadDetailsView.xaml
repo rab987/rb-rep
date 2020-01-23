@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LoadCounterMobile.Views.DriverLoadDetailsView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame>
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Name:" Grid.Row="1" Grid.Column="1"/>
+                        <Label Text="Paycode:" Grid.Row="2" Grid.Column="1"/>
+
+                        <Label Text="Job Number:" Grid.Row="1" Grid.Column="4"/>
+                        <Label Text="Job Name:" Grid.Row="2" Grid.Column="4"/>
+
+                        <Label x:Name="DriverName" Grid.Row="1" Grid.Column="2"/>
+                        <Label x:Name="DriverPaycode" Grid.Row="2" Grid.Column="2"/>
+
+                        <Label x:Name="JobNum" Grid.Row="1" Grid.Column="5"/>
+                        <Label x:Name="JobName" Grid.Row="2" Grid.Column="5"/>
+
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        <ListView x:Name="MyListView"
+            CachingStrategy="RecycleElement">
+                <ListView.Header>
+                    <StackLayout>
+                        <Label Text="Load Type Load Time"/>
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <!--<Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                --><!--<RowDefinition Height="Auto" />--><!--
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>-->
+                                <StackLayout Orientation="Vertical">
+                                    <StackLayout x:Name="LoadStackItem" Orientation="Horizontal">
+                                <!--<Label Text="Load Type" Grid.Column="1" Grid.Row="1"/>
+                                <Label Text="Load Time" Grid.Column="2" Grid.Row="1"/>-->
+
+                                    <!--<Label x:Name="ListItemLabel" Text="{Binding LoadInfo}" Grid.Column="1" Grid.Row="2" HeightRequest="20"/>
+                                    <ImageButton Grid.Column="2" Grid.Row="2" Source="pencil.PNG"/>
+                                    <ImageButton Grid.Column="3" Grid.Row="2" Source="delete.png"/>-->
+
+                                    <Label x:Name="ListItemLabel" Text="{Binding LoadInfo}" HeightRequest="10"/>
+                                    <ImageButton x:Name="EditButton" Clicked="PencilLaunchEditLoad"
+                                     Source="pencil.PNG" Margin="500,10,10,0"/>
+                                    <ImageButton x:Name="AddButton" Clicked="DeleteLoad" Source="delete.png" Margin="0,10,0,0" />
+                                </StackLayout>
+                                </StackLayout>
+                        <!--</Grid>-->
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+            <Button x:Name="AddButton" Text="+" FontAttributes="Bold"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

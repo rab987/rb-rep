@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj",
       "projectName": "DTApiLoadCounter.DTO",
-      "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj",
+      "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\DTApiLoadCounter.DTO.csproj",
       "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-      "outputPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.DTO\\obj\\",
+      "outputPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

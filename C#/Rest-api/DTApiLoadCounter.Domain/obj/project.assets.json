@@ -3907,11 +3907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj",
       "projectName": "DTApiLoadCounter.Domain",
-      "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj",
+      "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\DTApiLoadCounter.Domain.csproj",
       "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-      "outputPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3932,8 +3932,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj": {
-              "projectPath": "C:\\rb-rep\\rb-rep\\C#\\Rest-api\\Sample-Rest-Api-for-Trucking-App\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj"
+            "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj": {
+              "projectPath": "C:\\Users\\Ryan\\Desktop\\rb-rep\\rb-rep\\C#\\Rest-api\\DTApiLoadCounter.Data\\DTApiLoadCounter.Data.csproj"
             }
           }
         }
