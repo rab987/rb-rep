@@ -1,0 +1,9 @@
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\bin\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.deps.json
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\bin\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.dll
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\bin\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.pdb
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\obj\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.csprojAssemblyReference.cache
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\obj\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.csproj.CoreCompileInputs.cache
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\obj\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.AssemblyInfoInputs.cache
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\obj\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.AssemblyInfo.cs
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\obj\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.dll
+C:\Projects\Sequoia\DTApiLoadCounter\DTApiLoadCounter.DTO\obj\Debug\netcoreapp2.2\DTApiLoadCounter.DTO.pdb
