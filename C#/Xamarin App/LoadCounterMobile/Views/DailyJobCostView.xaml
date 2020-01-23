@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LoadCounterMobile.Views.DailyJobCostView">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame>
+        <StackLayout>
+            <Grid HeightRequest="550">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Job Number" Grid.Row="1" Grid.Column="1" FontAttributes="Bold"/>
+                <Entry x:Name="mDJJobNum" Grid.Row="1" Grid.Column="2"/>
+                <Label Text="Date" Grid.Row="1" Grid.Column="4" FontAttributes="Bold"/>
+                <Entry x:Name="mDJDate" Grid.Row="1" Grid.Column="5"/>
+
+                <Label Text="Recieved" Grid.Row="2" Grid.Column="1" FontAttributes="Bold"/>
+                <Entry x:Name="mDJReceived" Grid.Row="2" Grid.Column="2"/>
+
+                <Label Text="Project Manager" Grid.Row="3" Grid.Column="1" FontAttributes="Bold"/>
+                <Entry x:Name="mDJPM" Grid.Row="3" Grid.Column="2"/>
+                <Label Text="Approved" Grid.Row="3" Grid.Column="4" FontAttributes="Bold"/>
+                <Entry x:Name="mDJApproved" Grid.Row="3" Grid.Column="5"/>
+
+                <Label Text="Preliminary Notice" Grid.Row="4" Grid.Column="1" FontAttributes="Bold"/>
+                <Entry x:Name="mDJPN" Grid.Row="4" Grid.Column="2"/>
+
+                <Label Text="Loading Address" Grid.Row="5" Grid.Column="1" FontAttributes="Bold"/>
+                <Entry x:Name="mDJLoadingAddress" Grid.Row="5" Grid.Column="2"/>
+                <Label Text="Customers" Grid.Row="5" Grid.Column="4" FontAttributes="Bold"/>
+                <Entry x:Name="mDJCustomers" Grid.Row="5" Grid.Column="5"/>
+                
+                <Label Text="Delivery Address" Grid.Row="6" Grid.Column="1" FontAttributes="Bold"/>
+                <Entry x:Name="mDJDeliveryAddress" Grid.Row="6" Grid.Column="2" VerticalOptions="Center"/>
+            </Grid>
+        </StackLayout>
+            </Frame>
+
+            <Frame>
+        <StackLayout>
+                <Button x:Name="TruckingLabel" Clicked="ListViewVisibility" Text="Trucking" FontAttributes="Bold" FontSize="20" BackgroundColor="Transparent" HorizontalOptions="Start"/>
+
+                    <ListView x:Name="MyListView"
+            ItemTapped="Handle_ItemTapped"
+            CachingStrategy="RecycleElement">
+                        <ListView.Header>
+                            <!--<Grid HeightRequest="200">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>-->
+                                <!--<Label Text="Name" Grid.Row="1" Grid.Column="1" FontAttributes="Bold"/>
+                                <Label Text="Ticket Number" Grid.Row="1" Grid.Column="2" FontAttributes="Bold"/>
+                                <Label Text="Hours" Grid.Row="1" Grid.Column="3" FontAttributes="Bold"/>
+                                <Label Text="LD1" Grid.Row="1" Grid.Column="4" FontAttributes="Bold"/>-->
+
+                            <Label Text="Name/Ticket Number/Hours/LD1"  FontAttributes="Bold"/>
+                            <!--</Grid>-->
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout>
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                            </Grid.ColumnDefinitions>
+                                            <Label Text="{Binding mFullName}" Grid.Row="1" Grid.Column="1" Margin="10"/>
+                                            <Label Text="{Binding mTicketNumber}" Grid.Row="1" Grid.Column="2" Margin="10"/>
+                                            <Label Text="{Binding mHours}" Grid.Row="1" Grid.Column="3" Margin="10"/>
+                                            <Label Text="{Binding mDailyLoadCount}" Grid.Row="1" Grid.Column="4" Margin="10"/>
+                                        </Grid>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </Frame>
+            
+            <Frame>
+            <StackLayout>
+                    <Label x:Name="EquipmentLabel" Text="Equipment Type" FontAttributes="Bold"/>
+                    <Grid HeightRequest="300">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Name" Grid.Row="1" Grid.Column="1" FontAttributes="Bold"/>
+                        <Label Text="Vendor" Grid.Row="1" Grid.Column="2" FontAttributes="Bold"/>
+                        <Label Text="Hours" Grid.Row="1" Grid.Column="3" FontAttributes="Bold"/>
+                        <Label Text="Rate" Grid.Row="1" Grid.Column="5" FontAttributes="Bold"/>
+                        <Label Text="Total" Grid.Row="1" Grid.Column="6" FontAttributes="Bold"/>
+
+                        <Entry Grid.Row="2" Grid.Column="1" FontAttributes="Bold"/>
+                        <Entry Grid.Row="2" Grid.Column="2" FontAttributes="Bold"/>
+                        <Entry Grid.Row="2" Grid.Column="3" FontAttributes="Bold"/>
+                        <Label Text="@" Grid.Row="2" Grid.Column="4" FontAttributes="Bold"/>
+                        <Entry Grid.Row="2" Grid.Column="5" FontAttributes="Bold"/>
+                        <Entry Grid.Row="2" Grid.Column="6" FontAttributes="Bold"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <Frame>
+            <StackLayout>
+                        <Label x:Name="LaborLabel" Text="Labor" FontAttributes="Bold"/>
+                        <Grid HeightRequest="300">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                            <Label Text="" Grid.Row="1" Grid.Column="1" />
+                            <Label Text="Name"  Grid.Row="1" Grid.Column="2" FontAttributes="Bold"/>
+                            <Label Text="Hours" Grid.Row="1" Grid.Column="3" FontAttributes="Bold"/>
+                            <Label Text="Rate" Grid.Row="1" Grid.Column="5" FontAttributes="Bold"/>
+                            <Label Text="Total" Grid.Row="1" Grid.Column="6" FontAttributes="Bold"/>
+                            
+
+                            <Label Text="Foreman" Grid.Row="2" Grid.Column="1" FontAttributes="Bold"/>
+                            <Entry  Grid.Row="2" Grid.Column="2"/>
+                            <Entry Text="" Grid.Row="2" Grid.Column="3"/>
+                            <Label Text="@" Grid.Row="2" Grid.Column="4"/>
+                            <Entry Text="" Grid.Row="2" Grid.Column="5"/>
+                            <Entry Text="" Grid.Row="2" Grid.Column="6"/>
+
+                            <Label Text="LoadCounter" Grid.Row="3" Grid.Column="1" FontAttributes="Bold"/>
+                            <Entry  Grid.Row="3" Grid.Column="2"/>
+                            <Entry Text="" Grid.Row="3" Grid.Column="3"/>
+                            <Label Text="@" Grid.Row="3" Grid.Column="4"/>
+                            <Entry Text="" Grid.Row="3" Grid.Column="5"/>
+                            <Entry Text="" Grid.Row="3" Grid.Column="6"/>
+
+                            <Label Text="Misc" Grid.Row="4" Grid.Column="1" FontAttributes="Bold"/>
+                            <Entry  Grid.Row="4" Grid.Column="2"/>
+                            <Entry Text="" Grid.Row="4" Grid.Column="3"/>
+                            <Label Text="@" Grid.Row="4" Grid.Column="4"/>
+                            <Entry Text="" Grid.Row="4" Grid.Column="5"/>
+                            <Entry Text="" Grid.Row="4" Grid.Column="6"/>
+                    </Grid>
+                    </StackLayout>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
